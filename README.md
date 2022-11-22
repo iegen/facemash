@@ -1,4 +1,5 @@
 # FaceMash
+
 Facebook Clone
 
-Our tech stack currently includes NextJS, TypeScript, SCSS, Redux, NodeJS, Express, and MongoDB. 
+Our tech stack currently includes NextJS, TypeScript, SCSS, Redux, and MongoDB.
