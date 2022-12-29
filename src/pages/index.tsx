@@ -1,6 +1,12 @@
+import axios from 'axios';
+import setupInterceptors from 'lib/api';
+
 import Head from 'next/head';
 import Image from 'next/image';
-import styles from '../styles/Home.module.css';
+import styles from 'styles/Home.module.css';
+
+// globally intercept all axios requests/responses
+setupInterceptors(axios);
 
 export default function Home() {
 	return (
