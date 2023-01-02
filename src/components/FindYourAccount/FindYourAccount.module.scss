@@ -1,0 +1,79 @@
+@import '../../styles/theme.scss';
+
+.container {
+	background-color: #fff;
+	border-radius: 5px;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	height: 17.25rem;
+	margin: auto;
+	padding-left: 1.125rem;
+	padding-right: 1.125rem;
+	padding-top: 1.25rem;
+	width: 31.25rem;
+}
+
+.titleContainer {
+	border-bottom: 1px solid $border;
+	width: 100%;
+}
+
+.title {
+	color: #000;
+	font-size: 1.25rem;
+	font-weight: 700;
+}
+
+.paragraph {
+	color: #000;
+	font-size: 1.095rem;
+}
+
+.emailInput {
+	background-color: #fff;
+	border: 1px solid $border;
+	border-radius: 5px;
+	color: #000;
+	height: 2.438rem;
+	padding-left: 15px;
+	width: 29.25rem;
+
+	&:hover {
+		border-color: hsl(214, 89%, 52%);
+	}
+
+	&:focus {
+		outline: 1px solid hsl(214, 89%, 52%);
+	}
+}
+
+.cancelBtn {
+	background-color: #ccd0d5;
+	border: 1px solid $border;
+	border-radius: 5px;
+	height: 2.25rem;
+	width: 5.625rem;
+
+	&:hover {
+		cursor: pointer;
+	}
+}
+
+.searchBtn {
+	background-color: $blue;
+	border: 1px solid $border;
+	border-radius: 5px;
+	height: 2.25rem;
+	margin-left: 5px;
+	width: 5.625rem;
+
+	&:hover {
+		cursor: pointer;
+	}
+}
+
+.buttonContainer {
+	display: flex;
+	align-items: right;
+	flex-direction: row-reverse;
+	padding-top: 1.125rem;
+}
