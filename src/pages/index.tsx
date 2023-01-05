@@ -8,7 +8,7 @@ import styles from 'styles/Home.module.css';
 // globally intercept all axios requests/responses
 setupInterceptors(axios);
 
-export default function Home() {
+const Home = () => {
 	return (
 		<div className={styles.container}>
 			<Head>
@@ -68,4 +68,6 @@ export default function Home() {
 			</footer>
 		</div>
 	);
-}
+};
+
+export default Home;
