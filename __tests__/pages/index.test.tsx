@@ -1,4 +1,4 @@
-import { render, screen } from './utils';
+import { render, screen } from '../utils';
 import Home from '@/pages/index';
 
 describe('Home', () => {
