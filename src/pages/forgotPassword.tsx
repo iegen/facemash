@@ -1,12 +1,10 @@
-import FindYourAccount from 'components/FindYourAccount/FindYourAccount';
-import Header from 'components/Header/Header';
+import ForgotPasswordView from '../views/ForgotPasswordView/ForgotPasswordView';
 
 const forgotPassword = () => {
 	return (
-		<div>
-			<Header />
-			<FindYourAccount />
-		</div>
+		<>
+			<ForgotPasswordView />
+		</>
 	);
 };
 
